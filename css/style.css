@@ -87,6 +87,9 @@ h1{
     cursor: pointer;
     margin-top: 20px;
 }
+.top-container p {
+    text-align: center;
+}
 .top-container a:hover{
     background-color: red;
 }
@@ -118,9 +121,9 @@ h1{
 }
 
 @media (max-width: 768px) {
-    .top-container{
+    /*.top-container{
         height: auto;
-    }
+    }*/
     .center-container{
         flex-direction: column;
     }
